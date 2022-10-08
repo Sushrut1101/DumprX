@@ -1,5 +1,7 @@
 #!/bin/bash
 
+[ -z "$TERM" ] && TERM=xterm-256color
+
 # Clear Screen
 tput reset 2>/dev/null || clear
 
